@@ -7,4 +7,5 @@ find / -user user1: buscar ficheros y directorios pertenecientes al usuario ‘u
 find /usr/bin -type f -atime +100: buscar ficheros binarios no usados en los últimos 100 días.
 find /usr/bin -type f -mtime -10: buscar ficheros creados o cambiados dentro de los últimos 10 días.
 find /home/isaac -name \*.sh buscar ficheros con extensión ‘. sh’ dentro del directorio ‘/ home/user1’.
+locate \*.sh
 
