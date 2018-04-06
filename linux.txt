@@ -4,3 +4,8 @@ Encontrar archivos
 
 locate \*.sh
 
+rpm -qa | grep httpd: mostrar todos los paquetes rpm con el nombre “httpd"
+
+
+
+
